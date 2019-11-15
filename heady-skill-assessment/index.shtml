@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<title>Home</title>
+<link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
+<!-- Starts: Footer -->
+    <!--#include virtual="includes/header-js-css.inc"-->
+<!-- Ends: Footer -->
+</head>   
+<body>
+<div class="main-wrapper">
+    
+<!-- Starts: Footer -->
+    <!--#include virtual="includes/header.inc"-->
+<!-- Ends: Footer -->  
+    
+    <div class="main-content">
+        <ul class="breadcrum">
+            <li><a href="#"><img src="resources/images/icons/home.png" alt="home-icon"></a></li>
+            <li><a href="#">catalog</a></li>
+            <li><a href="#">sofas</a></li>
+            <li class="active"><a href="#">beige nuide sofa</a></li>
+        </ul>
+        <div class="details-section">
+            <aside class="pull-left">
+                <ul id="nav" class="side-menu">
+                    <li><a href="#details">Details</a></li>
+                    <li><a href="#description">Description</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#custom-tab">Custom Tab</a></li>
+                </ul>
+                <ul class="social-icons">
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-pinterest" aria-hidden="true"></i></li>                        
+                </ul> 
+            </aside>
+            <div id="content" class="pull-right">
+                <section id="details">   
+                    <div class="details-block">
+                        <figure class="pull-left">
+                            <img src="resources/images/pro1.jpg" alt="">
+                        </figure>
+                        <div class="details-content pull-left">
+                            <h2>Nudie Extendable Sofa for 3 persons.</h2>
+                            <div class="user-rates">
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <span class="number-of-people">(23)</span>
+                            </div>
+                            <ul class="price-sec">
+                                <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                                <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                            </ul>
+                            <ul class="product-details">
+                                <li><strong>Assembly:</strong> Carpenter Assembly</li>
+                                <li><strong>Warranty:</strong> 12 Months' Warrant</li>
+                            </ul>
+                            <ul class="policy-details">
+                                <li><i><img src="resources/images/icons/vehicle.png" alt=""></i><strong>same day dispatch</strong></li>
+                                <li><i><img src="resources/images/icons/refresh.png" alt=""></i><strong>easy - 30 day return policy</strong></li>
+                            </ul>
+                            <div class="product-color">
+                                <h5>color</h5>
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="beige" name="color" value="beige">
+                                        <label for="beige">
+                                            <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="white" name="color" value="white" checked>
+                                        <label for="white">
+                                            <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="black" name="color" value="black">
+                                        <label for="black">
+                                            <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="no-of-item">
+                                <div class="no-count">
+                                    <button>-</button>
+                                    <input type="number" value="1">
+                                    <button>+</button>
+                                </div>
+                                <button type="submit" class="add-to-cart-btn">add to cart</button>
+                            </div>
+                        </div>
+                        <span class="clear_0"></span>
+                    </div>
+                </section>  <!--details section ends here-->
+                <section id="description"> 
+                    <figure class="pull-right">
+                        <img src="resources/images/pro2.jpg" alt="">
+                    </figure>
+                    <div class="description-text-wrap pull-left">
+                        <div class="description-heading">
+                            <h2>At vero eos et accusamus et iufto odio dignissimos.</h2>
+                        </div>
+                        <div class="description-text">
+                            <p>At vero eos et accusamus et ludo odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molesetias excepturi sint occaecati cupiditate non provident, simitique sunt in culpa qui officia deserunt mollitia animi, id eit laborum et dolorum fuga.</p>
+                            <p>Et harum quidem rerum facilis est et expedita diglinetio. Nam libero tempore, cum soluta nobis eset eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda eft, omnis dolor repellendus.</p>
+                        </div>
+                    </div>  
+                    <span class="clear_0"></span>
+                </section><!--description ends here-->
+                <section id="review">   
+                    <figure> 
+                        <img src="resources/images/pro3.jpg" alt="">
+                        <figcaption><a href="#" class="video-play-btn" data-animation="fadeInUp" data-animation-delay="800"></a></figcaption>
+                    </figure>
+                    <div class="review-text">
+                        <h3>At vero eos et accusamus et iufto odio dignissimos.</h3>
+                    </div>
+                </section><!--review ends here-->
+                <section id="custom-tab">   
+                    <div class="accomation-sec">
+                        <h6>Suggested Accomodation</h6>
+                    </div>
+                    <div class="accomation-sec-img">
+                        <figure><img src="resources/images/pro4.jpg" alt=""></figure>
+                        <a href="#" class="download-pdf"><i class="fa fa-arrow-down" aria-hidden="true"></i>DOWNLOAD PDF</a>
+                    </div>
+                    <div class="accomation-small-img">
+                        <figure><img src="resources/images/accomodation-pro.jpg" alt=""></figure>
+                    </div>
+                </section> <!--custom-tab ends here-->
+            </div>
+            <span class="clear_0"></span> 
+        </div><!--details-section ends here-->
+    </div>
+    
+    <div class="product-list">
+        <h4>Related produdis</h4>
+        <ul>
+            <li>
+                <a href="#">
+                    <figure><img src="resources/images/related-product1.png" alt=""></figure>
+                    <div>
+                        <strong>Bamboo fiber gobo</strong>
+                        <ul class="price-sec">
+                            <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                            <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure><img src="resources/images/related-product2.png" alt=""></figure>
+                    <div>
+                        <strong>Pearly white gold</strong>
+                        <ul class="price-sec">
+                            <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                            <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure><img src="resources/images/related-product3.png" alt=""></figure>
+                    <div>
+                        <strong>Oled ringlight</strong>
+                        <ul class="price-sec">
+                            <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                            <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure><img src="resources/images/related-product4.png" alt=""></figure>
+                    <div>
+                        <strong>Bamboo fiber gobo</strong>
+                        <ul class="price-sec">
+                            <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                            <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure><img src="resources/images/related-product5.png" alt=""></figure>
+                    <div>
+                        <strong>Pearly white gold</strong>
+                        <ul class="price-sec">
+                            <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                            <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure><img src="resources/images/related-product3.png" alt=""></figure>
+                    <div>
+                        <strong>Oled ringlight</strong>
+                        <ul class="price-sec">
+                            <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                            <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                        </ul>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+<!-- Starts: Footer -->
+    <!--#include virtual="includes/footer-js-css.inc"-->
+<!-- Ends: Footer -->
+</div>
+<!--wrapper-->
+    
+<!-- Starts: Footer -->
+    <!--#include virtual="includes/footer-js-css.inc"-->
+<!-- Ends: Footer -->    
+</body>
+</html>
